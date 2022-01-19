@@ -477,7 +477,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: fit-content;
     background: var(--primary);
     padding: 8px 30px;
-    font-weight: 350;
+    font-weight: 400;
     font-size: 18px;
     box-shadow: rgba(0, 0, 0, 0.2) 0 4px 10px 0;
     transition: all 0.3s;
