@@ -17,7 +17,7 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    --primary: hsl(214, 88%, 44%);
+    --primary: hsl(295, 100%, 36%);
     --primaryShade: hsl(0, 0%, 100%);
     --secondaryShade: hsl(200, 20%, 97%);
     --tertiaryShade: hsl(240, 18%, 20%);
@@ -544,6 +544,12 @@ body::-webkit-scrollbar-thumb:hover {
     transition: margin 0.3s, height 0.3s, width 0.3s, padding 0.3s, box-shadow 0.3s;
 }
 
+.heroTopper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .heroChild {
     width: 50%;
     display: flex;
@@ -575,9 +581,10 @@ body::-webkit-scrollbar-thumb:hover {
 .heroText {
     font-size: 18px;
     width: 90%;
-    margin: 30px auto;
+    margin: 0 auto;
     margin-bottom: 0;
     font-weight: 300;
+    text-align: center;
 }
 
 @media all and (max-width: 600px) {
@@ -980,8 +987,8 @@ body::-webkit-scrollbar-thumb:hover {
 /*FOOTER*/
 
 .footer {
-    --footerPrimary: #2B92F1;
-    --footerPrimaryShade: rgb(40, 40, 53);
+    --footerPrimary: hsl(295, 100%, 66%);
+    --footerPrimaryShade: rgb(50, 40, 53);
     display: flex;
     flex-wrap: wrap;
     color: white;
